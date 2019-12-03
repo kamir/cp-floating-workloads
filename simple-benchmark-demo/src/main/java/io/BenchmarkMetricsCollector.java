@@ -65,7 +65,7 @@ public class BenchmarkMetricsCollector {
         System.out.println( "Topic : " + topic );
         System.out.println( "Key   : " + key );
 
-        createTopic(topic, 1, 3, props);
+        createTopic(topic, 1, 1, props);
 
     // Add additional properties.
     props.put(ProducerConfig.ACKS_CONFIG, "all");

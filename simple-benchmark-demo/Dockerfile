@@ -9,5 +9,5 @@ WORKDIR /usr/local/floating_app
 
 RUN ls
 
-CMD [ "/usr/bin/kafka-producer-perf-test", "--topic", "test_1", "--num-records", "100", "--payload-delimiter", "|", "--record-size", "10000" , "--throughput", "100", "--print-metrics", "--producer.config", "/usr/local/floating_app/ccloud-cfg.properties" ]
+CMD [ "/usr/bin/kafka-producer-perf-test", "--topic", "test_flwl_01", "--num-records", "100", "--payload-delimiter", "|", "--record-size", "10000" , "--throughput", "100", "--print-metrics", "--producer.config", "/usr/local/floating_app/ccloud-cfg.properties" ]
 
