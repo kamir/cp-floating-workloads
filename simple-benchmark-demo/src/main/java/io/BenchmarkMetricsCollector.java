@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
-public class BenchmarkMetricsCollecor {
+public class BenchmarkMetricsCollector {
 
 
     // Create topic in Confluent Cloud

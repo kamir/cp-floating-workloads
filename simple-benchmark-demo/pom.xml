@@ -100,10 +100,10 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>io.BenchmarkMetricsCollecor</mainClass>
+                    <mainClass>io.BenchmarkMetricsCollector</mainClass>
                     <arguments>
                         <argument>cfg/ccloud-cfg.properties</argument>
-                        <argument>test2.dat</argument>
+                        <argument>flwl_demo_01.dat</argument>
                     </arguments>
                 </configuration>
             </plugin>
@@ -132,7 +132,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
-                                        <Main-Class>io.BenchmarkMetricsCollecor</Main-Class>
+                                        <Main-Class>io.BenchmarkMetricsCollector</Main-Class>
                                         <Build-Number>1.0</Build-Number>
                                     </manifestEntries>
                                 </transformer>
