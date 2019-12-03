@@ -18,6 +18,10 @@
         <version>1.6.0</version>
         <configuration>
           <mainClass>io.BenchmarkMetricsCollecor</mainClass>
+          <arguments>
+            <argument>cfg/ccloud-cfg.properties</argument>
+            <argument>test2.dat</argument>
+          </arguments>
         </configuration>
       </plugin>
       <plugin>
