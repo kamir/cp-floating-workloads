@@ -4,5 +4,5 @@ mvn clean compile package
 
 sudo docker build . -t flwl_demo_01
 
-sudo docker run -t flwl_demo_01 > flwl_demo_01.dat
+sudo docker run --network host -t flwl_demo_01 > flwl_demo_01.dat
 
