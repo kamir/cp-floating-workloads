@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind:       Job
+metadata:
+  name:     benchmark-flwl-01
+spec:
+  template:
+    metadata:
+      name:     benchmark-flwl-01
+    spec:
+      containers:
+      - name:   flwl-demo-01
+        image:  flwl_demo_01
+      restartPolicy: Never
+
